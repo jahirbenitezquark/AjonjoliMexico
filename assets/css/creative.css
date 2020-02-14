@@ -1,0 +1,31 @@
+.showcase {
+	background-color: rgba(255, 255, 255, .85);
+	padding-top: 50px;
+}
+
+.showcase .showcase-text {
+	padding: 3rem;
+}
+
+.showcase .showcase-img {
+	min-height: 30rem;
+	background-size: cover;
+}
+
+@media (min-width: 768px) {
+	.showcase .showcase-text {
+		padding: 7rem;
+	}
+}
+
+.map {
+	height: 30rem;
+}
+
+section#contact {
+	padding: 100px 0;
+	background-color: rgba(47, 23, 15, .9);
+	background-image: url(/assets/img/map-image.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
